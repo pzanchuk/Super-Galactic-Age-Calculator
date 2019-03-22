@@ -5,11 +5,14 @@ export default class Inter {
   }
 
   calculateEarthAge() {
-  return 2019 - this.dob;
+  let currentDate = new Date();
+  let currentYear = currentDate.getFullYear();
+  return currentYear - this.dob;
   }
 
   calculateMercuryAge(){
-    return this.calculateEarthAge()*0.24;
+    const mercury = 0.24;
+    return this.calculateEarthAge()*mercury;
   }
 
   calculateVenusAge(){
@@ -35,9 +38,11 @@ export default class Inter {
   calculateExpectedVenus(){
     return this.exp*0.62 - this.calculateVenusAge();
   }
+
   calculateExpectedMars(){
     return this.exp*1.88 - this.calculateMarsAge();
   }
+  
   calculateExpectedJupiter(){
     return this.exp*11.86 - this.calculateJupiterAge();
   }

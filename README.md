@@ -63,7 +63,7 @@ _A Jupiter year is 11.86 Earth's years._
   * _Example output: 629._
 
 ## Setup/Installation Requirements
-* _Navigate your web browser to https://github.com/pzanchuk/Super-Galactic-Age-Calculator
+* _Navigate your web browser to https://github.com/pzanchuk/Super-Galactic-Age-Calculator_
 * _Click the green button "Clone or download" on the repository page._
 * _To download the repository choose "Open in Desktop" or "Download Zip"._
 * _Alternatively, to clone the repository, type "git clone https://github.com/pzanchuk/Super-Galactic-Age-Calculator in the terminal". (Note!: git, node.js should be installed on your PC).  For more information visit GitHub Help section Cloning a repository from GitHub:
