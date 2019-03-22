@@ -1,4 +1,3 @@
-
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import $ from 'jquery';
@@ -15,11 +14,11 @@ $(document).ready(function() {
 
     let input = new Inter(year, exp);
 
-    $('#earth').text(`${input.calculateEarthAge()} and expected to live ${input.calculateExpectedEarth()} years more.`);
-    $('#mercury').text(`${input.calculateMercuryAge()} and expected to live ${input.calculateExpectedMercury()} years more.`);
-    $('#venus').text(`${input.calculateVenushAge()} and expected to live ${input.calculateExpectedVenus()} years more.`);
-    $('#mars').text(`${input.calculateMarsAge()} and expected to live ${input.calculateExpectedMars()} years more.`);
-    $('#jupiter').text(`${input.calculateJupiterAge()} and expected to live ${input.calculateExpectedJupiter()} years more.`);;
+    $('#earth').text(`${Math.round(input.calculateEarthAge())} and expected to live ${Math.round(input.calculateExpectedEarth())} years more.`);
+    $('#mercury').text(`${Math.round(input.calculateMercuryAge())} and expected to live ${Math.round(input.calculateExpectedMercury())} years more.`);
+    $('#venus').text(`${Math.round(input.calculateVenusAge())} and expected to live ${Math.round(input.calculateExpectedVenus())} years more.`);
+    $('#mars').text(`${Math.round(input.calculateMarsAge())} and expected to live ${Math.round(input.calculateExpectedMars())} years more.`);
+    $('#jupiter').text(`${Math.round(input.calculateJupiterAge())} and expected to live ${Math.round(input.calculateExpectedJupiter())} years more.`);
 
   });
 });

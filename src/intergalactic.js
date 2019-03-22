@@ -9,36 +9,37 @@ export default class Inter {
   }
 
   calculateMercuryAge(){
-    return this.dob*0.24;
+    return this.calculateEarthAge()*0.24;
   }
 
   calculateVenusAge(){
-    return this.dob*0.62;
+    return this.calculateEarthAge()*0.62;
   }
 
   calculateMarsAge(){
-    return this.dob*1.88;
+    return this.calculateEarthAge()*1.88;
   }
 
   calculateJupiterAge(){
-    return this.dob*11.864;
+    return this.calculateEarthAge()*11.86;
   }
 
-  calculateExpectedMercury(){
-    return this.exp - this.calculateMercuryAge();
-  }
   calculateExpectedEarth(){
     return this.exp - this.calculateEarthAge();
   }
-  calculateExpectedVenus(){
-    return this.exp - this.calculateVenusAge();
-  }
-  calculateExpectedMars(){
-    return this.exp - this.calculateMarsAge();
-  }
-  calculateExpectedJupiter(){
-    return this.exp - this.calculateJupiterAge();
+
+  calculateExpectedMercury(){
+    return this.exp*0.24 - this.calculateMercuryAge();
   }
 
+  calculateExpectedVenus(){
+    return this.exp*0.62 - this.calculateVenusAge();
+  }
+  calculateExpectedMars(){
+    return this.exp*1.88 - this.calculateMarsAge();
+  }
+  calculateExpectedJupiter(){
+    return this.exp*11.86 - this.calculateJupiterAge();
+  }
 
 }
