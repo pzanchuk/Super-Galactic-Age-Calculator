@@ -1,5 +1,5 @@
 
-import { calculateAge } from './../src/intergalactic';
+import Intergalactic from './../src/intergalactic';
 import $ from 'jquery';
 import './styles.css';
 import 'bootstrap';
@@ -13,9 +13,17 @@ $(document).ready(function() {
     let year = $('#year').val();
     let month = $('#month').val();
     let day = $('#day').val();
+    let exp = parseInt($('#lifexp').val());
 
 
-    $('#result').text(calculateAge(new Date(year, month, day)));
+
+    let myAge = new Intergalactic(new Date(year, month, day), exp);
+
+    let myExpect = (exp - myAge.calculateEarthAge() );
+    $('#earth').text(myAge.calculateEarthAge() + " and life exp " + myAge.calculateEarthAge());
+
+    console.log(myAge.calculateEarthAge());
+
 
   });
 });

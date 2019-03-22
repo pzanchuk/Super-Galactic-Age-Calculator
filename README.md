@@ -26,7 +26,7 @@ _A Jupiter year is 11.86 Earth years._
   * _Example input: "23"._
   * _Example output: "23"._
 
-* _Program calculates and displays in browser full age _
+* _Program calculates and displays in browser full age._
   * _Example input: year: 1995, month: 12, day 23._
   * _Example output: 23._
 
