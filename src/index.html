@@ -6,29 +6,27 @@
   <body>
     <div class="container">
       <h1>Intergalactic Year Checker</h1>
-      <div class="row">
-        <div class="well col-xs-6">
-          <form id="haiku">
+      <h3>Please enter your DOB below:</h3>
+
+
+          <form id="bday">
             <br>
-            <label for="first">Enter first line:</label>
-            <input id="first" type="text" required>
+            <label for="year">Year:</label>
+            <input id="year" type="number" required>
             <br>
-            <label for="second">Enter second line:</label>
-            <input id="second" type="text" required>
+            <label for="month">Month:</label>
+            <input id="month" type="number" required>
             <br>
-            <label for="third">Enter third line:</label>
-            <input id="third" type="text" required>
+            <label for="day">Day:</label>
+            <input id="day" type="number" required>
             <br>
             <button type="submit">Submit</button>
           </form>
-        </div>
 
-        <div class="well col-xs-6">
-          <h2>Your result:</h2>
-          <h3><span id="result"></span></h3>
-        </div>
 
-      </div>
+          <h2>Your current Earth's age is: <span id="result"></span></h2>
+
+
     </div>
 
   </body>

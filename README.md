@@ -14,23 +14,23 @@ _A Jupiter year is 11.86 Earth years._
 
 ## Specifications
 
-* _Program will accept user input for Stylist._
-  * _Example input: "Pavel"._
-  * _Example output: "Pavel"._
+* _Program accepts user input for year._
+  * _Example input: "1995"._
+  * _Example output: "1995"._
 
-* _Program will accept user input for clients._
-  * _Example input: "Panatda"._
-  * _Example output: "Panatda"._
+* _Program accepts user input for month._
+  * _Example input: "12"._
+  * _Example output: "12"._
 
-* _Program will accept user input for specialties._
-  * _Example input: "Colorist"._
-  * _Example output: "Colorist"._
+* _Program accepts user input for day._
+  * _Example input: "23"._
+  * _Example output: "23"._
 
-* _Program will display in browser information about Stylist_
-  * _Example input: click button "View all stylists" from home page, choose a stylist, details about that Stylist will be shown._
-  * _Example output: info page about that Stylist will be shown._
+* _Program calculates and displays in browser full age _
+  * _Example input: year: 1995, month: 12, day 23._
+  * _Example output: 23._
 
-* _Program will display in browser information about Specialties_
+<!-- * _Program will display in browser information about Specialties_
   * _Example input: click button "View all specialties" from home page, choose a specialty, details about that Specialty will be shown._
   * _Example output: info page about that Specialty will be shown._      
 
@@ -60,7 +60,7 @@ _A Jupiter year is 11.86 Earth years._
 
 * _Program will delete all Stylists_
   * _Example input: click button "View all stylists" from home page, click "Delete all stylists"_
-  * _Example output: list of current Stylists will be shown._       
+  * _Example output: list of current Stylists will be shown._        -->
 
 ## Setup/Installation Requirements
 * _Navigate your web browser to https://github.com/pzanchuk/HairSalon.Solution_
